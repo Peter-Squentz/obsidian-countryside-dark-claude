@@ -1,0 +1,122 @@
+/* Countryside Dark by Claude — companion theme to the Plasma colour scheme
+   Palette: hedgerow green (2e4632), mustard wheat (c9a24b), limestone (f5f1e6)
+   Fonts: Playfair Display (headings), Libre Caslon Text (body),
+          Inter (UI), JetBrains Mono (code)
+   Requires all four fonts to be installed system-wide (fc-list to check). */
+
+.theme-dark {
+  /* Core surfaces */
+  --background-primary: #2e4632;
+  --background-primary-alt: #223426;
+  --background-secondary: #1c2a1e;
+  --background-secondary-alt: #19261c;
+  --background-modifier-border: #3a5a3f;
+  --background-modifier-form-field: #223426;
+  --background-modifier-hover: #35533a;
+  --background-modifier-active-hover: #3a5a3f;
+  --divider-color: #3a5a3f;
+
+  /* Text */
+  --text-normal: #f5f1e6;
+  --text-muted: #b8b5ac;
+  --text-faint: #8a8880;
+  --text-on-accent: #101812;
+  --text-accent: #c9a24b;
+  --text-accent-hover: #d6b978;
+  --text-error: #b0372c;
+  --text-error-hover: #c8736b;
+  --text-success: #6d9b6f;
+  --text-warning: #c9a24b;
+  --text-selection: #97783833;
+
+  /* Interactive elements */
+  --interactive-normal: #35533a;
+  --interactive-hover: #3a5a3f;
+  --interactive-accent: #c9a24b;
+  --interactive-accent-hover: #d6b978;
+  --interactive-success: #6d9b6f;
+
+  /* Links */
+  --link-color: #c9a24b;
+  --link-color-hover: #d6b978;
+  --link-unresolved-color: #b8b5ac;
+
+  /* Scrollbar */
+  --scrollbar-thumb-bg: #977a38;
+  --scrollbar-active-thumb-bg: #c9a24b;
+
+  /* Fonts */
+  --font-text: "Libre Caslon Text", Georgia, serif;
+  --font-interface: "Inter", -apple-system, sans-serif;
+  --font-monospace: "JetBrains Mono", monospace;
+  --font-text-size: 16px;
+}
+
+/* Headings — Playfair Display, in both reading view and live preview */
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-preview-view h3,
+.theme-dark .markdown-preview-view h4,
+.theme-dark .markdown-preview-view h5,
+.theme-dark .markdown-preview-view h6,
+.theme-dark .markdown-rendered h1,
+.theme-dark .markdown-rendered h2,
+.theme-dark .markdown-rendered h3,
+.theme-dark .markdown-rendered h4,
+.theme-dark .markdown-rendered h5,
+.theme-dark .markdown-rendered h6,
+.theme-dark .cm-header,
+.theme-dark .cm-header-1,
+.theme-dark .cm-header-2,
+.theme-dark .cm-header-3,
+.theme-dark .cm-header-4,
+.theme-dark .cm-header-5,
+.theme-dark .cm-header-6 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #f5f1e6;
+  font-weight: 700;
+}
+
+/* Note titles (the large title above the content) */
+.theme-dark .view-header-title,
+.theme-dark .inline-title {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #f5f1e6;
+}
+
+/* Blockquotes get a wheat accent border, callouts too */
+.theme-dark blockquote {
+  border-left: 3px solid #c9a24b;
+  color: #b8b5ac;
+}
+
+.theme-dark .callout {
+  background-color: #223426;
+  border: 1px solid #3a5a3f;
+}
+
+.theme-dark .callout-title {
+  color: #c9a24b;
+}
+
+/* Tags styled as small wheat pills */
+.theme-dark .tag {
+  background-color: #35533a;
+  color: #c9a24b;
+  border: 1px solid #3a5a3f;
+}
+
+/* Code blocks and inline code */
+.theme-dark code,
+.theme-dark pre {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #1c2a1e;
+  color: #f5f1e6;
+}
+
+/* Active file / selected item in the sidebar, uses wheat accent */
+.theme-dark .nav-file-title.is-active,
+.theme-dark .nav-folder-title.is-active {
+  background-color: #35533a;
+  color: #c9a24b;
+}
