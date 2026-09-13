@@ -1,8 +1,8 @@
-# UK Countryside Dark
+# Countryside-Dark-Claude
 
 A dark Obsidian theme built around a British countryside palette: hedgerow green, mustard wheat, and limestone. Companion to a matching KDE Plasma, Konsole, and Thunderbird theme set.
 
-![UK Countryside Dark screenshot](obsidian-countryside-dark-claude.png)
+![Countryside-Dark-Claude screenshot](obsidian-countryside-dark-claude.png)
 
 ## Palette
 
